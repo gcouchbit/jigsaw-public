@@ -7,5 +7,5 @@
 
 function usersnap_uninstall() {
   // Remove the usersnap variable which is defined in our module
-  variable_del('usersnap_apikey');
+  variable_del('086d7d1c-8453-478f-921f-12e1fa8445bf');
 }
