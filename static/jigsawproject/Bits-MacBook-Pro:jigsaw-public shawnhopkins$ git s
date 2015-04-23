@@ -1,0 +1,48 @@
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ git status
+On branch develop
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	static/shopkinsbit/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ git add static/shopkinsbit
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ git add static/shopkinsbit
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ git status
+On branch develop
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   static/shopkinsbit/I have a file.
+
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ git commit -m "initial commit of my static folder"
+[develop 30efea6] initial commit of my static folder
+ Committer: Shawn Hopkins <shawnhopkins@Bits-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+ create mode 100644 static/shopkinsbit/I have a file.
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ git push origin develop
+Counting objects: 2115, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (1870/1870), done.
+Writing objects: 100% (2115/2115), 4.36 MiB | 1.35 MiB/s, done.
+Total 2115 (delta 193), reused 2109 (delta 191)
+To https://github.com/shopkinsbit/jigsaw-public.git
+   a51c4cf..30efea6  develop -> develop
+Bits-MacBook-Pro:jigsaw-public shawnhopkins$ 
+
