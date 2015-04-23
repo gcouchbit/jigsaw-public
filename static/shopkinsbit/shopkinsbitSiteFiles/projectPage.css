@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Kohnioor-Book';
+  src: url('../fonts/KohinoorDevanagari-Book.otf');
+}
+@font-face {
+   font-family: 'Kohnioor-Light';
+  src: url('../fonts/KohinoorDevanagari-Light.otf');
+}
+@font-face {
+   font-family: 'Kohnioor-Medium';
+  src: url('../fonts/KohinoorDevanagari-Medium.otf');
+}
+@font-face {
+   font-family: 'Kohnioor-Demi';
+  src: url('../fonts/KohinoorDevanagari-Demi.otf');
+}
+@font-face {
+   font-family: 'Kohnioor-Bold';
+  src: url('../fonts/KohinoorDevanagari-Bold.otf');
+}
+
+p {
+  font-family: 'Kohnioor-Book';
+  color: white;
+}
+
+h1 {
+  font-family: 'Kohnioor-Bold';
+  /*color: rgb(163,185,157);*/
+  color: black;
+  padding-bottom: 1em;
+}
+
+h2 {
+  font-family: 'Kohnioor-Medium';
+  color: white;
+}
+
+h3 {
+
+   font-family: 'Kohnioor-Demi';
+  color: rgb(107,164,112);
+}
+
+li {
+
+   font-family: 'Kohnioor-Light';
+  color: rgb(83,106,76);
+}
+
+body {
+  background-image: url('../images/homeBackground.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: rgb(107,164,112);
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border: solid #white;
+}
+
+a:hover {
+  color:white;
+}
+
+.row {
+  
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.mainDiv {
+  width:90%;
+  overflow:auto;
+  margin: auto;
+  padding: 3em;
+  
+}
+
+.primaryMenu {
+  width: 80%;
+}
+
+.divImg {
+  width: 100%;
+  border: dotted 4px;
+  margin-top: 1.5em;
+}
+
+.divImg:hover 
+{
+  border: solid 3px;
+  border-color: rgb(83,106,76);
+}
+
+.searchBar {
+  width: 500px;
+}
+#footer {
+  margin-top: 100px;
+}
