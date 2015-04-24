@@ -60,21 +60,6 @@ h3 {
 
    font-family: 'Kohnioor-Demi';
   color: white;
-    
-  }
-
-.txt-container h3  {
-
-   font-family: 'Kohnioor-Demi';
-  color: white;
-  text-shadow: black 1px 1px;
-}
-
-.txt-container h5 {
-
-   
-  color: white;
-  text-shadow: black 1px 1px;
 }
 
 /*Sets a standard for the li tag*/
@@ -135,13 +120,6 @@ header .logo  {
 
 header .animation {
 
-}
-
-.container 
-{
-margin:0;
-padding:0;
-  width:100%;
 }
 
 /*Creates the primary div*/
@@ -233,7 +211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedac7    
   width:4em;
   height:2em;
   margin-top:.25em;
-  margin-left:17%;
+  margin-left:46%;
   background-image:url('../images/resting.png');
   background-size:cover;
   padding:0;
@@ -255,7 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedac7    
   width:4em;
   height:2em;
   margin-top:.25em;
-  margin-left:17%;
+  margin-left:46%;
   background-image:url('../images/onclickbotton.png');
   background-size:cover;
   padding:0;
@@ -278,17 +256,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedac7    
 {
   border: solid 3px;
   border-color: rgb(83,106,76);
-}
-
-.post-content {
-    top:0;
-    left:0;
-    position: absolute;
-}
-
-.thumbnail{
-    position:relative;
-
 }
 
 

@@ -1,0 +1,75 @@
+.block{
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    border-collapse: collapse;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+   
+   
+}
+img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+a :hover{
+  height: 50px;
+  width:  50px;
+  
+}
+.row{
+    display: block;
+    float:left;
+    clear:left;
+}
+
+#s3r2{
+   background-image: url(images/MenuWithGrid-10.png);
+   background-repeat: no-repeat;
+}
+
+#s2r3{
+   background-image: url(images/MenuWithGrid-16.png);
+   background-repeat: no-repeat; 
+}
+#s3r3{
+   background-image: url(images/MenuWithGrid-17.png);
+   background-repeat: no-repeat;
+}
+#s4r3{
+   background-image: url(images/MenuWithGrid-18.png);
+   background-repeat: no-repeat;
+}
+#s5r3{
+    background-image: url(images/MenuWithGrid-19.png);
+    background-repeat: no-repeat;
+}
+
+#s2r4{
+    background-image: url(images/MenuWithGrid-23.png);
+}
+#s3r4{
+    background-image: url(images/MenuWithGrid-24.png);
+}
+#s4r4{
+    background-image: url(images/MenuWithGrid-25.png);
+   background-repeat: no-repeat;
+}
+#s5r4{
+    background-image: url(images/MenuWithGrid-26.png);
+    background-repeat: no-repeat;
+}
+
+#s3r5{
+    background-image: url(images/MenuWithGrid-31.png);
+    background-repeat: no-repeat;
+}
+#s4r5{
+    background-image: url(images/MenuWithGrid-32.png);
+    background-repeat: no-repeat;
+}
