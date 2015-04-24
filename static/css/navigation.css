@@ -12,16 +12,20 @@
    
    
 }
-img {
+
+
+.block img {
   display: block;
   margin: 0 auto;
   padding-top: 15px;
 }
-a :hover{
+
+.block a :hover{
   height: 50px;
   width:  50px;
   
 }
+
 .row{
     display: block;
     float:left;
