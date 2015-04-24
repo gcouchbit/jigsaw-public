@@ -155,11 +155,15 @@ padding:0;
   padding-bottom: 4em;
   
 }
+.maindiv .row-fluid {
+  margin-top:42px;
+}
 
 #nav {
   position:absolute;
   top:10px;
   left:-45px;
+  z-index:5000;
 }
 
 /*Creates a transparent overlay with text and images*/
@@ -224,7 +228,7 @@ footer  {
 /*Styles button elements */
 
 .button {
-  background: rgb(206,218,199); /* Old browsers */
+  background: transparent;
   border:transparent;
   color:white;
   background-image:url('../images/resting.png');
@@ -259,6 +263,11 @@ footer  {
   border-color: rgb(83,106,76);
 }
 
+.divImg a:hover 
+{
+  border: solid 3px;
+  border-color: rgb(83,106,76);
+}
 .post-content {
     top:0;
     left:0;
@@ -272,19 +281,11 @@ footer  {
 
 
 
-/*Creates containers for items on the project page
+/*Creates containers for items on the project page*/
 .projectBox {
-  border: dotted 2px;
-  background-color: rgb(83,106,76);
-  width: 300px;
-  height: 400px;
-  text-align: right;
-  padding-top: 1em;
-  padding-right: .3em;
-  margin:auto;
-  margin-top:1em;
+ margin-bottom:10px;
 
-}*/
+}
 
 /*Sets a hover behavior for the Project Box
 .projectBox:hover {
