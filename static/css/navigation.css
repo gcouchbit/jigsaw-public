@@ -11,11 +11,23 @@
    
   
 }
+<<<<<<< HEAD
 .block img {
   display: block;
   margin: 0 auto;
   margin-top: 15px;
   width: 50px;
+=======
+
+
+.block img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.block a :hover{
+>>>>>>> 61f80c035bde2881b460599c7da3187f641a2123
   height: 50px;
 }
 .block a :hover {
@@ -24,6 +36,7 @@
   margin-top: 13px;
   
 }
+<<<<<<< HEAD
 #s1r1{
   height: 30px;
   background-position: bottom;
@@ -77,6 +90,8 @@
   width: 30px;
   background-position: right;
 }
+=======
+>>>>>>> 61f80c035bde2881b460599c7da3187f641a2123
 
 .row{
     display: block;
