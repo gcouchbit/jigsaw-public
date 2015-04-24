@@ -92,7 +92,7 @@ $( document ).ready(function() {
     }
 
     function decorateBlock(blockName, bgImage){
-        $(blockName).css("background-image", "url(../jigsawproject/" + bgImage + ")");
+        $(blockName).css("background-image", "url(" + bgImage + ")");
         $(blockName + ' a').css("display", "block");
     }
 

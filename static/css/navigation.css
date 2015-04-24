@@ -7,21 +7,77 @@
     float: left;
     border-collapse: collapse;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
+   
   
-   
-   
 }
-img {
+.block img {
   display: block;
   margin: 0 auto;
-  padding-top: 15px;
-}
-a :hover{
+  margin-top: 15px;
+  width: 50px;
   height: 50px;
-  width:  50px;
+}
+.block a :hover {
+  height: 60px;
+  width:  60px;
+  margin-top: 13px;
   
 }
+#s1r1{
+  height: 30px;
+  background-position: bottom;
+}
+#s2r1{
+  height: 30px;
+  background-position: bottom;
+}
+#s3r1{
+  height: 30px;
+  background-position: bottom;
+}
+#s4r1{
+  height: 30px;
+  background-position: bottom;
+}
+#s5r1{
+  height: 30px;
+  background-position: bottom;
+}
+#s6r1{
+  height: 30px;
+  background-position: bottom;
+}
+#s7r1{
+  height: 30px;
+  background-position: bottom;
+}
+
+#s1r1{
+  width: 30px;
+  background-position: right;
+}
+#s1r2{
+  width: 30px;
+  background-position: right;
+}
+#s1r3{
+  width: 30px;
+  background-position: right;
+}
+#s1r4{
+  width: 30px;
+  background-position: right;
+}
+#s1r5{
+  width: 30px;
+  background-position: right;
+}
+#s1r6{
+  width: 30px;
+  background-position: right;
+}
+
 .row{
     display: block;
     float:left;
@@ -72,4 +128,10 @@ a :hover{
 #s4r5{
     background-image: url(../images/MenuWithGrid-32.png);
     background-repeat: no-repeat;
+}
+#nav {
+  position:absolute;
+  top:60px;
+  left:10px;
+
 }
